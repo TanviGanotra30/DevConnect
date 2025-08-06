@@ -76,5 +76,5 @@ Lazy loading and debounced search inputs
 🧠 Collaborations from 4 universities
 
 ⏱️ API latency improved by 40% using indexing and backend clustering
-## 📦 Folder Structure
+
 
