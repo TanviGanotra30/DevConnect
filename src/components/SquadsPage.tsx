@@ -65,7 +65,7 @@ const SquadsPage: React.FC = () => {
       },
       leader: {
         name: 'Sarah Chen',
-        avatar: 'https://github.com/shadcn.png'
+        avatar: 'https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U='
       }
     },
     {
@@ -83,7 +83,7 @@ const SquadsPage: React.FC = () => {
       },
       leader: {
         name: 'Mike Rodriguez',
-        avatar: 'https://github.com/shadcn.png'
+        avatar: 'https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U='
       }
     },
     {
@@ -101,7 +101,7 @@ const SquadsPage: React.FC = () => {
       },
       leader: {
         name: 'Alex Kim',
-        avatar: 'https://github.com/shadcn.png'
+        avatar: 'https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U='
       }
     }
   ]);
@@ -132,7 +132,7 @@ const SquadsPage: React.FC = () => {
       },
       leader: {
         name: user?.name || 'You',
-        avatar: user?.avatar || 'https://github.com/shadcn.png'
+        avatar: user?.avatar || 'https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U='
       }
     };
 

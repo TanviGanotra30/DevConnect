@@ -11,8 +11,7 @@ import {
   Edit, 
   MapPin, 
   Calendar, 
-  Github, 
-  Twitter, 
+  Github,
   Linkedin,
   Code2,
   Users,
@@ -26,12 +25,11 @@ const ProfilePage: React.FC = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [editForm, setEditForm] = useState({
     name: user?.name || '',
-    bio: 'Full-stack developer passionate about React, TypeScript, and open-source. Always learning new technologies and building cool stuff!',
-    location: 'San Francisco, CA',
-    website: 'https://johndeveloper.dev',
-    github: 'johndeveloper',
-    twitter: 'johndev',
-    linkedin: 'johndeveloper'
+    bio: 'Full-stack developer passionate about React, BootStrap, and open-source. Always learning new technologies and building cool stuff!',
+    location: 'Jammu & Kashmir, India',
+    website: 'https://tanviGanotra.dev',
+    github: 'TanviGanotra30',
+    linkedin: 'tanvi-ganotra'
   });
 
   const stats = [
@@ -99,7 +97,7 @@ const ProfilePage: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-6">
             <div className="flex flex-col items-center md:items-start">
               <Avatar className="h-24 w-24 mb-4">
-                <AvatarImage src={user.avatar} />
+                <AvatarImage src="https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U="/>
                 <AvatarFallback className="text-2xl">{user.name.charAt(0)}</AvatarFallback>
               </Avatar>
               
@@ -160,23 +158,19 @@ const ProfilePage: React.FC = () => {
                       </div>
                       <div className="flex items-center gap-1">
                         <Calendar className="h-4 w-4" />
-                        Joined March 2024
+                        Joined June 2025
                       </div>
                     </div>
 
                     <div className="flex gap-3">
-                      <Button variant="ghost" size="sm" className="gap-2 p-0 h-auto">
+                      <a href="https://github.com/TanviGanotra30" target="_blank"><Button variant="ghost" size="sm" className="gap-2 p-0 h-auto">
                         <Github className="h-4 w-4" />
                         {editForm.github}
-                      </Button>
-                      <Button variant="ghost" size="sm" className="gap-2 p-0 h-auto">
-                        <Twitter className="h-4 w-4" />
-                        {editForm.twitter}
-                      </Button>
-                      <Button variant="ghost" size="sm" className="gap-2 p-0 h-auto">
+                      </Button></a>
+                     <a href="https://www.linkedin.com/in/tanvi-ganotra/" target='_blank'><Button variant="ghost" size="sm" className="gap-2 p-0 h-auto">
                         <Linkedin className="h-4 w-4" />
                         {editForm.linkedin}
-                      </Button>
+                      </Button></a>
                     </div>
                   </div>
 

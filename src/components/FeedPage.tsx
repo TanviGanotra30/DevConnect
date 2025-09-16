@@ -38,7 +38,7 @@ const FeedPage: React.FC = () => {
       id: '1',
       author: {
         name: 'Sarah Chen',
-        avatar: 'https://github.com/shadcn.png',
+        avatar: 'https://media.istockphoto.com/id/1411320618/photo/little-girl-pointing-her-finger-with-cartoon-style-3d-rendering.jpg?s=612x612&w=0&k=20&c=ulkjINV8d_g98gTCsFBJn526dqnAX-Yqzu0yBCy-mJI=',
         techStack: ['React', 'TypeScript']
       },
       content: 'Just shipped a new feature using React Server Components! The performance improvements are incredible. Anyone else experimenting with RSCs?',
@@ -105,7 +105,7 @@ const FeedPage: React.FC = () => {
         <CardContent className="p-4">
           <div className="flex gap-3">
             <Avatar>
-              <AvatarImage src={user?.avatar} />
+              <AvatarImage src="https://media.istockphoto.com/id/1186723101/photo/digital-3d-illustration-of-a-toon-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=rIBUz9p3Tr60ncI26uuu1N-qxwbKEs5_kEgWmJGMX0U=" />
               <AvatarFallback>{user?.name.charAt(0)}</AvatarFallback>
             </Avatar>
             <div className="flex-1 space-y-3">

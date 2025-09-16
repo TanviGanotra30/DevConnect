@@ -18,10 +18,10 @@ const AuthPage: React.FC = () => {
     // Simulate Google auth
     const mockUser = {
       id: '1',
-      name: 'John Developer',
-      email: 'john@example.com',
+      name: 'Tanvi Ganotra',
+      email: 'tanvi123@example.com',
       avatar: 'https://github.com/shadcn.png',
-      techStack: ['React', 'TypeScript', 'Node.js']
+      techStack: ['React', 'Bootstrap', 'TailwindCSS']
     };
     setUser(mockUser);
     setCurrentPage('feed');
@@ -32,10 +32,10 @@ const AuthPage: React.FC = () => {
     
     const mockUser = {
       id: '1',
-      name: isSignUp ? name : 'John Developer',
+      name: isSignUp ? name : 'Tanvi Ganotra',
       email,
-      avatar: 'https://github.com/shadcn.png',
-      techStack: ['React', 'TypeScript', 'Node.js']
+      avatar: 'https://github.com/TanviGanotra30',
+      techStack: ['React', 'Bootstrap', 'TailwindCSS']
     };
     setUser(mockUser);
     setCurrentPage('feed');
@@ -67,7 +67,7 @@ const AuthPage: React.FC = () => {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="tanvi123@example.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -94,7 +94,7 @@ const AuthPage: React.FC = () => {
                 <Label htmlFor="name">Name</Label>
                 <Input
                   id="name"
-                  placeholder="John Developer"
+                  placeholder="Tanvi Ganotra"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -104,7 +104,7 @@ const AuthPage: React.FC = () => {
                 <Input
                   id="signup-email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="tanvi123@example.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />

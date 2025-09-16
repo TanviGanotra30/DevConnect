@@ -36,7 +36,7 @@ const ChatPage: React.FC = () => {
     {
       id: '1',
       name: 'Sarah Chen',
-      avatar: 'https://github.com/shadcn.png',
+      avatar: "https://media.istockphoto.com/id/1411320618/photo/little-girl-pointing-her-finger-with-cartoon-style-3d-rendering.jpg?s=612x612&w=0&k=20&c=ulkjINV8d_g98gTCsFBJn526dqnAX-Yqzu0yBCy-mJI=",
       lastMessage: 'That React component looks great!',
       timestamp: '2m ago',
       unread: 2,
