@@ -3,9 +3,6 @@ DevConnect 💬🚀
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4DB33D?logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=000)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?logo=socketdotio&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
