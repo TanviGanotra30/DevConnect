@@ -38,24 +38,6 @@ DevConnect 💬🚀
 
 ---
 
-## 🛠️ Tech Stack
-
-**Frontend:**
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-
-**Backend:**
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDB + Mongoose](https://mongoosejs.com/)
-- [Socket.io](https://socket.io/)
-- [Firebase Auth](https://firebase.google.com/)
-- [JWT](https://jwt.io/)
-- [PM2](https://pm2.keymetrics.io/) for backend clustering
-
----
 🚀 Optimizations
 PM2 clustering for backend scalability
 
