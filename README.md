@@ -9,7 +9,7 @@ DevConnect 💬🚀
 > A full-stack real-time platform for developers to post, chat, and form squads to collaborate on open-source issues. 🚀
 
 ---
-Live link:https://dev-connect-rose.vercel.app/
+Live link: https://dev-connect-rose.vercel.app/
 ## 📸 Preview
 
 <img width="1329" height="786" alt="Screenshot 2025-08-06 135336" src="https://github.com/user-attachments/assets/18cb6a1a-ba42-49a3-8e58-88543507a935" />
