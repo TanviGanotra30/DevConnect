@@ -37,7 +37,7 @@ const AppLayout: React.FC = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-16">
+      <main>
         {renderPage()}
       </main>
     </div>
